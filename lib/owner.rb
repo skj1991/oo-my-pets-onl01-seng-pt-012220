@@ -62,5 +62,6 @@ class Owner
     pets = dogs + cats
     pets.each do |pet|
       pet.name
+    end
   end
 end
