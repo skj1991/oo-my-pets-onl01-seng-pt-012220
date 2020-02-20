@@ -59,9 +59,6 @@ class Owner
   end
 
   def list_pets
-    pets = dogs + cats
-    pets.each do |pet|
-      pet.name
-    end
+    I have {self.dogs.count} dog(s), and {self.cats.count} cat(s).
   end
 end
